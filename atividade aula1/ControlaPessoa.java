@@ -1,35 +1,35 @@
-package Exercicios01.exemploPOO2.controle;
+package projetos.projeto1.controle;
 
-import Exercicios01.exemploPOO2.dominio.*;
-
+import projetos.projeto1.dominio.*;
 import java.util.Scanner;
 
 public class ControlaPessoa {
-   public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-  
-        System.out.print("Digite o nome: ");
-        String nome = sc.nextLine();
+  public static void main(String[] args) {
 
-        System.out.print("Digite a idade: ");
-        int idade = sc.nextInt();
+    Scanner sc = new Scanner(System.in);
 
-        System.out.print("Digite a altura: ");
-        double altura = sc.nextDouble();
+    System.out.println("Entre com o nome: ");  //pedindo ao usuário as informações necessárias
+    String nome = sc.nextLine();
 
-        System.out.print("Digite a peso: ");
-        double peso = sc.nextDouble();
+    System.out.println("Entre com a idade: ");
+    int idade = sc.nextInt();
 
-        System.out.print("Digite o sexo: ");
-        char sexo = sc.next().charAt(0);
+    System.out.println("Entre com a altura: ");
+    double altura = sc.nextDouble();    
+    
+    System.out.println("Entre com o peso: ");
+    double peso = sc.nextDouble();
 
-        Pessoa pessoa = new Pessoa(nome,idade,altura,peso,sexo);
+    System.out.println("Entre com o sexo: ");
+    char sexo = sc.next().charAt(0);
 
-        System.out.println("\nDados da pessoa:");
-        pessoa.listarPessoa();
-        System.out.printf("IMC da pessoa:"+pessoa.calcularIMC());
-        System.out.printf("Classificação do IMC da pessoa:"+pessoa.classificarIMC());
-        sc.close();  // Fechar o Scanner após o uso
-    }
+    Pessoa pessoa = new Pessoa(nome, idade, altura, peso, sexo);  //criando um novo objeto
 
+    System.out.println("Exibindo os dados das pessoas: ");  //exibindo os resultados
+    pessoa.listarPessoa();
+    System.out.println("Exibindo seu IMC: " + pessoa.calcularIMC());
+    System.out.println("Classificação do IMC da pessoa: " + pessoa.classificarIMC());
+
+    sc.close();
+  }
 }
