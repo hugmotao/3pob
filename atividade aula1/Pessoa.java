@@ -10,7 +10,7 @@ public class Pessoa {
 
   public Pessoa (String nome, int idade, double altura, double peso, char sexo) {
     this.nome = nome;
-    this.idade = idade;
+    // this.idade = idade;
     this.altura = altura;
     this.peso = peso;
     this.sexo = sexo;
@@ -38,7 +38,7 @@ public class Pessoa {
 
   public void setAltura(double altura) {
     this.altura = altura;
-  }
+  // }
 
   public double getPeso() {
     return peso;
