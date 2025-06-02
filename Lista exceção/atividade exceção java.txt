@@ -1,0 +1,32 @@
+Lista de exercícios sobre Exceções em java:
+
+// =====================
+// Nova Lista de Exercícios - Tratamento de Exceções em Java
+// =====================
+
+// Exercício 1: Conversor de Temperatura
+// Crie um programa que leia uma temperatura em Celsius informada pelo usuário e a converta para Fahrenheit.
+// Trate a possibilidade de entrada inválida (valores não numéricos) usando try-catch.
+
+// Exercício 2: Leitura de Vários Números
+// Crie um programa que leia cinco números inteiros do usuário e armazene-os em um array.
+// Caso o usuário digite algo que não seja inteiro, exiba uma mensagem de erro e repita a leitura até completar o array.
+
+// Exercício 3: Cadastro de Produto com Preço Mínimo
+// Implemente uma classe Produto com os atributos nome e preco.
+// Lance uma exceção personalizada (PrecoInvalidoException) se o preço for menor ou igual a zero.
+// Trate a exceção no programa principal exibindo uma mensagem de erro.
+
+// Exercício 4: Simulador de Lista de Tarefas
+// Implemente um programa com uma lista de tarefas (ArrayList<String>) em que o usuário pode:
+// 1 - Adicionar tarefa
+// 2 - Remover tarefa por índice
+// 3 - Exibir todas as tarefas
+// Trate entradas inválidas como índice fora do intervalo e textos ao invés de números.
+
+// Exercício 5: Sistema de Login
+// Crie um programa que solicite ao usuário um nome de usuário e senha.
+// Se o nome ou senha estiverem vazios ou nulos, lance uma exceção personalizada (LoginInvalidoException).
+// Trate essa exceção exibindo uma mensagem clara e amigável.
+
+// Obs.: Para todos os exercícios, utilize Scanner e aplique boas práticas de validação e tratamento de erros.
