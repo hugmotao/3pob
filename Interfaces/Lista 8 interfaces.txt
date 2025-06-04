@@ -1,0 +1,20 @@
+Lista de Exercícios ­ Interfaces em Java Exercício 1: Interface para Pagamentos Descrição: Crie um sistema que represente diferentes formas de pagamento, garantindo que todas sigam um contrato comum. Requisitos:
+1. Criar a interface Pagamento com o método: o realizarPagamento(double valor).
+2. Criar duas classes que implementam Pagamento: o CartaoCredito  exibe "Pagamento de R$ valor realizado com Cartão de Crédito.". o BoletoBancario  exibe "Pagamento de R$ valor realizado com Boleto Bancário.".
+3. Criar um programa que instancie objetos das duas classes e chame o método realizarPagamento().
+Exercício 2: Interface para Formas Geométricas Descrição: Implemente um sistema que calcule área e perímetro de diferentes formas geométricas. Requisitos:
+1. Criar a interface FormaGeometrica com os métodos: o calcularArea(). o calcularPerimetro().
+2. Criar duas classes que implementam FormaGeometrica: o Retangulo (atributos: largura e altura). o Circulo (atributo: raio).
+3. Criar um programa que instancie um Retangulo e um Circulo, solicite os valores ao usuário e exiba os cálculos da área e perímetro.
+Exercício 3: Interface para Dispositivos Eletrônicos
+
+Descrição: Desenvolva um programa que represente dispositivos eletrônicos com funcionalidades comuns.
+Requisitos:
+1. Criar a interface DispositivoEletronico com os métodos:
+o ligar().
+o desligar().
+2. Criar duas classes que implementam DispositivoEletronico:
+o Smartphone  exibe "Smartphone ligado." e "Smartphone desligado.".
+o Televisao  exibe "TV ligada." e "TV desligada.".
+3. Criar um programa que instancie um Smartphone e uma Televisao, permitindo ao usuário escolher qual dispositivo ligar ou desligar.
+
